@@ -1,4 +1,5 @@
 import axios from "axios";
+import { SyncProjects } from "../config";
 
 const ChatBotConfig = {
     url: "https://bot.nexdev.net/skynex/api/messages/",
@@ -23,12 +24,14 @@ const post = async (message) => {
     }
 };
 
+const getProjectName = (projectId) => Object.entries(SyncProjects).find(([key, val]) => val === projectId)?.[0];
+
 const postSyncFailed = async (projectId, message) => {
-    post(`Sync Glossary project ${projectId} FAILED - ${message}`);
+    post(`${encodeURIComponent("⛔")} FAILED ${encodeURIComponent("⛔")} Sync Glossary project ${getProjectName(projectId)} - ${message}`);
 };
 
 const postSyncSuccess = async (projectId) => {
-    post(`Sync Glossary project ${projectId} SUCCESS !`);
+    post(`${encodeURIComponent("✅")} SUCCESS ${encodeURIComponent("✅")} Sync Glossary project ${getProjectName(projectId)} !`);
 };
 
 export { post, postSyncFailed, postSyncSuccess };
