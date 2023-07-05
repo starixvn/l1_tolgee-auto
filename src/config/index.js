@@ -1,5 +1,6 @@
 export const Tolgee = {
     url: "https://tolgee.sabagame.com/",
+    key: "tgpat_17adn2sbijqjvv6qlserdc5omm4duh3qsfr841pq41brs3dhlq60",
 };
 
 export const BaseProjectId = 2;

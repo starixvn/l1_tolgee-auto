@@ -4,7 +4,7 @@ import FormData from "form-data";
 import * as ChatBot from "./chat-bot";
 
 const tolgeeHeader = {
-    "x-api-key": "tgpat_17adn2sbijqjvv6qlserdc5omm4duh3qsfr841pq41brs3dhlq60",
+    "x-api-key": Tolgee.key,
 };
 
 const getGlossary = async () => {
