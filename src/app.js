@@ -26,7 +26,7 @@ fastify.put("/sync-project", async (request, reply) => {
 });
 
 const registerHourlyJob = () => {
-    cron.schedule("0 0 8,13,17 * * *", syncAll);
+    cron.schedule("0 0 1,5,10 * * *", syncAll);
 };
 
 const start = async () => {
