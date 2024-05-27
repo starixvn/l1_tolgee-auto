@@ -12,6 +12,7 @@ export const Languages = {
     Indonesia: "id",
     SimplifiedChinese: "zh_cn",
     TraditionalChinese: "zh_tw",
+    Philippines: "fil-PH",
 };
 
 export const SyncProjects = {
@@ -27,6 +28,7 @@ export const ProjectLanguageCode = {
         [Languages.Vietnamese]: "vi-VN",
         [Languages.SimplifiedChinese]: "zh-Hans",
         [Languages.TraditionalChinese]: "zh-Hant",
+        [Languages.Philippines]: "fil-PH",
     },
     [SyncProjects.GameClient]: {
         [Languages.English]: "en",
@@ -35,5 +37,6 @@ export const ProjectLanguageCode = {
         [Languages.Vietnamese]: "vi",
         [Languages.SimplifiedChinese]: "zh_cn",
         [Languages.TraditionalChinese]: "zh_tw",
+        [Languages.Philippines]: "fil-PH",
     },
 };
