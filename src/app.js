@@ -31,10 +31,7 @@ const registerHourlyJob = () => {
 
 const start = async () => {
     try {
-        await fastify.listen({ port: 5000, host: "0.0.0.0" });
-
-        console.log(`Tolgee Auto started at ${new Date().toLocaleDateString()} - ${new Date().toLocaleTimeString()}`);
-        registerHourlyJob();
+        syncAll();
     } catch (err) {
         fastify.log.error(err);
         console.log(err);

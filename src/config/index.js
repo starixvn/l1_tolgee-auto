@@ -13,6 +13,7 @@ export const Languages = {
     SimplifiedChinese: "zh_cn",
     TraditionalChinese: "zh_tw",
     Philippines: "fil-PH",
+    Japanese: "ja",
 };
 
 export const SyncProjects = {
@@ -29,6 +30,7 @@ export const ProjectLanguageCode = {
         [Languages.SimplifiedChinese]: "zh-Hans",
         [Languages.TraditionalChinese]: "zh-Hant",
         [Languages.Philippines]: "fil-PH",
+        [Languages.Japanese]: "ja",
     },
     [SyncProjects.GameClient]: {
         [Languages.English]: "en",
@@ -38,5 +40,6 @@ export const ProjectLanguageCode = {
         [Languages.SimplifiedChinese]: "zh_cn",
         [Languages.TraditionalChinese]: "zh_tw",
         [Languages.Philippines]: "fil-PH",
+        [Languages.Japanese]: "ja",
     },
 };
