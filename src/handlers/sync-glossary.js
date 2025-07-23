@@ -46,10 +46,10 @@ const createImportFile = (projectId) => {
     const files = getAllFiles(exportFolder);
 
     files.forEach((file) => {
-        if(ProjectLanguageCode[projectId][language])
-        {
+        const language = path.basename(file).split(".")[0];
+
+        if (ProjectLanguageCode[projectId][language]) {
             const filePath = path.dirname(file);
-            const language = path.basename(file).split(".")[0];
             const newFilePath = path.join(filePath, `${ProjectLanguageCode[projectId][language]}.json`);
 
             fs.renameSync(file, newFilePath);
