@@ -30,7 +30,7 @@ export const ProjectLanguageCode = {
         [Languages.SimplifiedChinese]: "zh-Hans",
         [Languages.TraditionalChinese]: "zh-Hant",
         [Languages.Philippines]: "fil-PH",
-        [Languages.Japanese]: "ja",
+        [Languages.Japanese]: "ja-JP",
     },
     [SyncProjects.GameClient]: {
         [Languages.English]: "en",
