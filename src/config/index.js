@@ -16,6 +16,10 @@ export const Languages = {
     Japanese: "ja",
     Spanish: "es",
     Turkey: "tr",
+    Bangla: "bn_bd",
+    Hindi: "hi_in",
+    Portuguese: "pt_br",
+    Korean: "ko",
 };
 
 export const SyncProjects = {
@@ -35,6 +39,10 @@ export const ProjectLanguageCode = {
         [Languages.Japanese]: "ja-JP",
         [Languages.Spanish]: "es-ES",
         [Languages.Turkey]: "tr-TR",
+        [Languages.Bangla]: "bn-BD",
+        [Languages.Hindi]: "hi-IN",
+        [Languages.Portuguese]: "pt-BR",
+        [Languages.Korean]: "ko-KR",
     },
     [SyncProjects.GameClient]: {
         [Languages.English]: "en",
@@ -47,5 +55,9 @@ export const ProjectLanguageCode = {
         [Languages.Japanese]: "ja",
         [Languages.Spanish]: "es",
         [Languages.Turkey]: "tr",
+        [Languages.Bangla]: "bn_bd",
+        [Languages.Hindi]: "hi_in",
+        [Languages.Portuguese]: "pt_br",
+        [Languages.Korean]: "ko",
     },
 };
