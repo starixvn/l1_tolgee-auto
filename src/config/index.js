@@ -20,6 +20,7 @@ export const Languages = {
     Hindi: "hi_in",
     Portuguese: "pt_br",
     Korean: "ko",
+    Malay: "ms_my",
 };
 
 export const SyncProjects = {
@@ -43,6 +44,7 @@ export const ProjectLanguageCode = {
         [Languages.Hindi]: "hi-IN",
         [Languages.Portuguese]: "pt-BR",
         [Languages.Korean]: "ko-KR",
+        [Languages.Malay]: "ms-MY",
     },
     [SyncProjects.GameClient]: {
         [Languages.English]: "en",
@@ -59,5 +61,6 @@ export const ProjectLanguageCode = {
         [Languages.Hindi]: "hi_in",
         [Languages.Portuguese]: "pt_br",
         [Languages.Korean]: "ko",
+        [Languages.Malay]: "ms_my",
     },
 };
