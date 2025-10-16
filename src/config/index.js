@@ -26,6 +26,7 @@ export const Languages = {
 export const SyncProjects = {
     GameRoundResult: 6,
     GameClient: 5,
+    GamePromotion: 8,
 };
 
 export const ProjectLanguageCode = {
